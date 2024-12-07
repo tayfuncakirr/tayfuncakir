@@ -1,0 +1,73 @@
+// @import "~bootstrap/scss/bootstrap";
+ //@import "./pages/Poke";
+ //@import "./component/Pokemon";
+
+body{
+
+     font-family: 'Trebuchet MS';
+     background-image:radial-gradient(at left, aquamarine,rgb(244, 247, 246)) ;
+     color: #333;
+}
+
+.data{
+
+
+.pokemon-item{
+    max-width: 1200px;
+    padding: 10px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(29, 21, 21, 0.8);
+    margin: 10px;
+}
+.poke-type{
+    display: flex;
+    justify-content: space-evenly;
+    .types{
+        padding: 10px;
+        border-radius: 5px;
+    }
+}
+.type{
+    display: inline-block;
+    padding: 0.25rem 0.75rem;
+    margin-top: 0.5rem;
+    border-radius: 20px;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    
+}
+.images{
+    aspect-ratio: 3/3;
+    object-fit: cover;
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+    opacity: 0.8;
+
+}
+}
+
+.data-wrapper{
+
+    border: 1px solid #ddd;
+    padding:1rem;
+    text-align: center;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    background-image:radial-gradient(at right,aqua,rgb(200, 241, 241)) ;
+    border: 2px;
+   
+  }
+  .inputsearch{
+    margin: 15px 10px;
+    opacity: 0.5;
+    border-radius: 8px;
+    
+
+  }
+
+  
+
+    
+
